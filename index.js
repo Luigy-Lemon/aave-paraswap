@@ -6,7 +6,7 @@ import { ethers, FixedNumber } from "ethers";
 dotenv.config();
 const GRAPHQL_KEY = process.env.GRAPHQL_KEY;
 
-//const GRAPHQL_KEY = "a88dbeb57fb8f9d8ddc9a8f973ccb8f1"; //Required
+
 const GRAPHQL_URL = `https://gateway.thegraph.com/api/${GRAPHQL_KEY}/subgraphs/id/`;
 
 const chains = ["eth", "polygon", "arbitrum", "optimism", "avalanche", "bsc","base"];
